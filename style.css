@@ -1,0 +1,83 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Century Gothic;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(17, 22, 26, 0.9808298319327731) 100%
+  );
+  height: 100px;
+  width: 100%;
+}
+header img {
+  width: 150px;
+  padding-left: 20px;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  width: 200px;
+  height: 100px;
+  padding: 0px;
+}
+
+header ul li {
+  padding: 10px;
+  align-items: center;
+}
+
+header ul a {
+  text-decoration: none;
+  color: white;
+  align-self: center;
+  font-size: 18px;
+}
+/* heder end */
+/* main start */
+main {
+  width: 100%;
+  height: 550px;
+  position: absolute;
+  background-image: linear-gradient(
+    180deg,
+    rgba(17, 22, 26, 0.86) 0%,
+    rgba(0, 0, 0, 0.8631827731092436) 100%
+  );
+  display: flex;
+  justify-content: center;
+}
+main ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+main ul li {
+  padding: 20px;
+}
+main ul li select {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: white;
+  font-family: Century Gothic;
+}
+.test {
+  display: flex;
+  width: 100%;
+  height: 650px;
+  background-image: url("hal-gatewood-Pr578ZCufII-unsplash.jpg");
+background-size: 100% 650px;
+}
+
