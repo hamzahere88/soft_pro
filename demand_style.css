@@ -1,0 +1,167 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Century Gothic;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(17, 22, 26, 0.9808298319327731) 100%
+  );
+  height: 100px;
+  width: 100%;
+}
+header img {
+  width: 150px;
+  padding-left: 20px;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  width: 200px;
+  height: 100px;
+  padding: 0px;
+}
+
+header ul li {
+  padding: 10px;
+  align-items: center;
+}
+
+header ul a {
+  text-decoration: none;
+  color: white;
+  align-self: center;
+  font-size: 18px;
+}
+/* heder end */
+/* main start */
+
+main {
+  width: 100%;
+  height: 750px;
+  position: relative;
+  background-image: linear-gradient(
+    180deg,
+    rgba(17, 22, 26, 0.86) 0%,
+    rgba(0, 0, 0, 0.8631827731092436) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* hero image styling */
+.hero_image {
+  position: absolute;
+  width: 100%;
+  height: 650px;
+  background-image: url("hal-gatewood-Pr578ZCufII-unsplash.jpg");
+  background-size: 100% 650px;
+}
+/* demand box */
+.demand_box {
+  width: 90%;
+  height: 640px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(17, 22, 26, 0.86) 0%,
+    rgba(0, 0, 0, 0.8631827731092436) 100%
+  );
+}
+
+.main_con {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 2px solid white;
+}
+
+.demand_box_heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  
+}
+.input_div {
+  /* width: 50%; */
+  width: 630px;
+  height: 560px;
+  display: flex;
+}
+.serch_div {
+  /* width: 50%; */
+  height: 100%;
+}
+.inputs_field {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.input_text {
+  padding: 10px;
+  background: transparent;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  color: white;
+  font-family: Century Gothic;
+  width: 250px;
+  height: 14px;
+  border: white;
+  border: 1px solid white;
+  font-size: 18px;
+}
+.leb {
+  margin-bottom: 10px;
+}
+.sug_box_ul {
+  list-style-type: none;
+}
+.sug_box_ul li {
+  padding: 10px;
+  margin: 10px;
+}
+.auto_sugetion_box {
+  padding: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(17, 22, 26, 0.86) 0%,
+    rgba(0, 0, 0, 0.8631827731092436) 100%
+  );
+  margin-bottom: 30px;
+  color: white;
+  font-family: Century Gothic;
+  width: 250px;
+  height: 14px;
+  border: white;
+  border: 1px solid white;
+  font-size: 18px;
+  border: none;
+}
+.serch_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 560px;
+}
+.sug_box {
+  width: 400px;
+  height: 560px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.8631827731092436) 0%,
+    rgba(17, 22, 26, 0.86) 100%
+  );
+  
+}
